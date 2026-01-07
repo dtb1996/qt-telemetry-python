@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 18.0.1, 2026-01-07T13:03:08. -->
+<!-- Written by QtCreator 18.0.1, 2026-01-07T13:12:40. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -194,7 +194,7 @@
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">app/main.py</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.</value>
      <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/dillon/QtProjects/qt-telemetry-python/app/main.py</value>
-     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
      <value type="QString" key="ProjectExplorer.RunConfiguration.UniqueId"></value>
      <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/dillon/QtProjects/qt-telemetry-python/app/main.py</value>
      <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -274,7 +274,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">app/main.py</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/dillon/QtProjects/qt-telemetry-python/app/main.py</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.UniqueId"></value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/dillon/QtProjects/qt-telemetry-python/app/main.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
