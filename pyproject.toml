@@ -2,7 +2,7 @@
 name = "Qt Telemetry Python"
 
 [tool.pyside6-project]
-files = ["README.md", "app/__init__.py", "app/main.py", "app/models/__init__.py", "app/models/sensor_data.py", "app/services/__init__.py", "app/services/telemetry_service.py", "app/ui/components/SensorRow.qml", "app/ui/components/StatusIndicator.qml", "app/ui/main.qml", "app/viewmodels/__init__.py", "app/viewmodels/dashboard_vm.py", "app/viewmodels/sensor_vm.py", "tests/conftest.py", "tests/test_dashboard_vm.py", "tests/test_sensor_vm.py", "tests/test_telemetry_service.py"]
+files = [".gitignore", "README.md", "app/__init__.py", "app/main.py", "app/models/__init__.py", "app/models/sensor_data.py", "app/services/__init__.py", "app/services/telemetry_service.py", "app/ui/components/SensorRow.qml", "app/ui/components/StatusIndicator.qml", "app/ui/main.qml", "app/viewmodels/__init__.py", "app/viewmodels/dashboard_vm.py", "app/viewmodels/sensor_vm.py", "tests/conftest.py", "tests/test_dashboard_vm.py", "tests/test_sensor_vm.py", "tests/test_telemetry_service.py"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
