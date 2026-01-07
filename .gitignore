@@ -29,9 +29,8 @@ pip-delete-this-directory.txt
 *.qmlproject.user
 
 # Qt Creator project files
-*.pro.user
-*.creator
-*.creator.user
+*.user*
+*.creator*
 *.qmake.stash
 
 # ===== IDEs =====
@@ -51,4 +50,3 @@ Thumbs.db
 
 # ===== Logs =====
 *.log
-
