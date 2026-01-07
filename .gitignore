@@ -1,0 +1,54 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Qt / PySide / QML =====
+*.qmlc
+*.rcc
+*.qmltypes
+*.qmlproject.user
+
+# Qt Creator project files
+*.pro.user
+*.creator
+*.creator.user
+*.qmake.stash
+
+# ===== IDEs =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== System / OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
