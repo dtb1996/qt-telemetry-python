@@ -27,21 +27,22 @@ The app simulates real-time telemetry by generating random sensor data (speed, t
 ## Project Structure
 
 ```bash
-app/
-├── main.py                   # Application entry point
-├── services/
-│   └── telemetry_service.py  # Generates sensor data and emits signals
-├── viewmodels/
-│   ├── dashboard_vm.py       # Connects service data to QML
-│   └── sensor_vm.py          # Wraps individual sensor data
-├── models/
-│   └── sensor_data.py        # SensorData and SensorStatus definitions
-└── ui/
-    ├── Main.qml              # Dashboard UI
-    └── components
-        ├── SensorRow.qml
-        └── StatusIndicator.qml
-tests/
+qt-python-app/
+├── app/
+│   ├── main.py                   # Application entry point
+│   ├── services/
+│   │   └── telemetry_service.py  # Generates sensor data and emits signals
+│   ├── viewmodels/
+│   │   ├── dashboard_vm.py       # Connects service data to QML
+│   │   └── sensor_vm.py          # Wraps individual sensor data
+│   ├── models/
+│   │   └── sensor_data.py        # SensorData and SensorStatus definitions
+│   └── ui/
+│       ├── Main.qml              # Dashboard UI
+│       └── components
+│           ├── SensorRow.qml
+│           └── StatusIndicator.qml
+├── tests/
 │   ├── test_telemetry_service.py
 │   ├── test_dashboard_vm.py
 │   └── test_sensor_vm.py
